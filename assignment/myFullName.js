@@ -5,13 +5,11 @@ var separator;
 separator = " =================####=================="; 
 console.log(separator);
 // or any other character you want to use as a separator between your first and last name
-myFullName = "Akshay Parakh";
+var myFullName = "Akshay Parakh";
 console.log(myFullName);
 
 
-var separator;
-separator = " =================####=================="; 
-console.log(separator);
+console.log(" =================####==================");
 
 myFullName="Akshay Joesph Parakh"
 console.log(myFullName);
