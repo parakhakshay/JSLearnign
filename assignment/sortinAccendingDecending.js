@@ -25,7 +25,7 @@ const arrayEmpIDs= arrayEmployees.filter((employee)=>{
     return employee.emp_id;
 });
 const SortEmpID=arrayEmpIDs.sort((a,b)=>{
-    return a>b ? 1 : -1;
+    return a.emp_id>b.emp_id ? -1 : 1;
     
 });
 
